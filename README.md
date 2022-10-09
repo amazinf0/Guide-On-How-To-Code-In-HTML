@@ -2,16 +2,13 @@
 Websites Project
 
 ## Reminders
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- Code it well.
+- Incorporate everything into every page.
+- Diversity.
+- Take your time.
+- Make it look nice.
+- Learn some things on your own.
+- Understand everything. 
 ---
 ## To Do List
 - [x] Learn how to use github desktop, github, and visual code studio
@@ -24,17 +21,11 @@ Websites Project
 - [x] Learn how to make text correspond with browser size
 - [x] Learn how to add images
 - [x] Learn how to use sub-superscripts
-- [ ] Learn how to lay out DIV's
-- [ ] Learn Flexbox
-- [ ] Learn how to code in general
-- [ ] Learn how to copy and paste code
-- [ ] Learn how to find mistakes and fix them
-- [ ] N/A
-- [ ] N/A
-- [ ] N/A
-- [ ] N/A
-- [ ] N/A
-- [ ] N/A
+- [X] Learn how to lay out DIV's
+- [X] Learn Flexbox
+- [X] Learn how to code in general
+- [X] Learn how to copy and paste code
+- [X] Learn how to find mistakes and fix them
 --- 
 Creating a Checklist
 - [ ] example checkbox
