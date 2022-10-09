@@ -23,54 +23,77 @@
 
         <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
         <!-- Already specified in the charset above-->
+        <style>
+            * {
+                box-sizing: border-box; 
+                font-size:auto;
+            }
 
+            //div {border: thick dotted rgb(28, 10, 158);}
+            header {
+               border: 7px solid rgb(0, 0, 0);
+               padding: 0px;
+               background-color: rgba(255, 255, 255, 0.65);
+
+            }
+            .menu {
+               width: 60%;
+               float: left;
+               padding: 0px;
+               border: 0px solid blue;
+               background-color: rgba(255, 255, 255, 0.65);
+            }
+
+
+            .main {
+               width: 50%;
+               float: left;
+               padding: 0px;
+               border: 2px solid black;
+               background-color: rgba(255, 255, 255, 0.65);
+            }
+
+            .aside {
+               width: 100%;
+               float: left;
+               padding: 0px;
+               border: 2px solid rgb(0, 0, 0);
+               background-color: rgba(255, 255, 255, 0.65);
+            }
+
+            .footer {}
+
+       </style>
+
+       </style>
         <!-- Cyber Security Note about JavaScript in Browsers-->
         <noscript>Running JavaScript is not necessary in this HTML page ... FYI: your feature to execute scripts is turned off</noscript>
     </head>
-    <body>
-        <header style="font-size:3vw; text-align: center"><h1>Image Lesson</h1></header>
-        <nav></nav>
-        <aside></aside>
-        <main></main>
-        <section>
-            <h3>Steps in building an image</h3>
-            <ul>
-                <li>Pick an image (careful of the file extension in the url)
-                <li>Record URL, cite it, comment for data accress, and record original dimensions
-                <li>Use blockquote and use as appropriate
-                <li>use img-tag wih attributes src, alt, title, and style with width-height
-            </ul>
-        </section>
-        <section>
-                <h3>Example Image</h3>
-                <br><!-- codes one space, like pressing enter -->
-                <!-- <img> Image Tags are self closing -->
-                <blockquote cite="https://www.asc-csa.gc.ca/images/recherche/hi-res/69994021-fa51-4990-9b1a-dd59fa1be84d.jpg">
-                    <!-- Date Accessed 20220929 -->
-                </blockquote>
-                <img src="https://www.asc-csa.gc.ca/images/recherche/hi-res/69994021-fa51-4990-9b1a-dd59fa1be84d.jpg" alt="..\Images\69994021-fa51-4990-9b1a-dd59fa1be84d.jpg" title="NASA JWST IMAGE" style="width:25%;height:auto">
-                <br><br><br>
-                <img src="..\Images\69994021-fa51-4990-9b1a-dd59fa1be84d.jpg" alt="..\Images\69994021-fa51-4990-9b1a-dd59fa1be84d.jpg" title="NASA JWST IMAGE" style="width:100%;height:auto">
-        </section>
-        <article></article>
-        <footer></footer>
-
+    <body     style="font-size:1.33vw" background="..\Images\image.jpg" style="width:75%;height:auto">
+        <font color="#28282B">
+        <header style="font-size:3vw; text-align: center"><h2>Images</h2></header><br>
+        <nav class="menu" style="font-size:2vw"><div style="border: thick dotted rgb(20, 12, 74)"><h2>Summary of Images:</div></nav>
+        <br><br><br><br><br><br><br>
+        
+        <navigation class="main">
+        <aside>An img tag is a self closing tag which allows you to place an image into your webpage.</aside>
+        <br>
+        <main>To put an image into the img tag you need to download it and paste the directory into the src and alt section so the image is displayed.</main>
+        <br>
+        <section>To name the image, put a title tag inside the img tag and that would be your name.</section>
+        <br>
+        <article>To change the size of the image, use the style tag inside the img tag and change the width and height to your liking.</article>
+        <br>
+        <footer>To force an image to be somewhere, use flexbox.</footer>
+        <br>
+        <footer>To make a background, add a background tag in the body and point it to the image and viola!</footer>
+    </navigation>
+        </font>
     </body>
     <footer>
-        <Blockquote cite="https://www.brainyquote.com/quotes/elbert_hubbard_104409">
-         <!-- Date Accessed 20220919 -->
-        </Blockquote>
-        <p>
-            <strong>
-                "Do Not Take Life Too Seriously. You Will Never Get Out Of It Alive"
-            </strong>
-            <em>
-                <a href="https://www.brainyquote.com/quotes/elbert_hubbard_104409" target="_blank">
-                   -Elbert Hubbard
-                </a>
-            </em> 
-        </p>
-        <p>&copy This Website Is Copyright By Abdullah Alamssi, Powered By amazinf0 in GitHub</p>
-        </Blockquote>
+        
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <footer class="aside"><marquee direction="right" behavior="alternate";><p style="font-size:0.6vw;"> &copy This Website Is Copyright By Abdullah Alamssi, Powered By amazinf0 in GitHub</p></marquee></footer>
+    
     </footer>
 </html>

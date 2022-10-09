@@ -25,76 +25,87 @@
         <!-- Already specified in the charset above-->
 
         <style>
-             * {
-                 box-sizing: border-box; 
-                 font-size:2vw;
-             }
+            div {border: thin dotted black}
 
-             //div {border: thin dotted red;}
-             .header {
-                border: 1px solid green;
-                padding: 15px;
 
-             }
-             .menu {
+                
+            * {
+                box-sizing: border-box; 
+                font-size:auto;
+            }
+
+            //div {border: thick dotted rgb(28, 10, 158);}
+            header {
+               border: 7px solid rgb(0, 0, 0);
+               padding: 0px;
+               background-color: rgba(255, 255, 255, 0.65);
+
+            }
+            .menu {
+               width: 60%;
+               float: left;
+               padding: 0px;
+               border: 0px solid blue;
+               background-color: rgba(255, 255, 255, 0.65);
+            }
+
+
+            .main {
+               width: 50%;
+               float: left;
+               padding: 0px;
+               border: 2px solid black;
+               background-color: rgba(255, 255, 255, 0.65);
+            }
+
+            .aside {
+               width: 100%;
+               float: left;
+               padding: 0px;
+               border: 2px solid rgb(0, 0, 0);
+               background-color: rgba(255, 255, 255, 0.65);
+            }
+
+            .footer {
                 width: 25%;
-                float: left;
-                padding: 5px;
-                border: 3pc solid blue;
-             }
+                float: right;
+            }
 
+       </style>
 
-             .main {
-                width: 50%;
-                float: left;
-                padding: 5px;
-                border: 2pc solid green;
-             }
-
-             .aside {
-                width: 25%;
-                float: left;
-                padding: 5px;
-                border: 1pc solid yellow;
-             }
-
-             .footer {}
-
-        </style>
-
+       </style>
         <!-- Cyber Security Note about JavaScript in Browsers-->
         <noscript>Running JavaScript is not necessary in this HTML page ... FYI: your feature to execute scripts is turned off</noscript>
     </head>
-    <body>
-        <div><header style="font-size:4vw; text-align: center" class="header"><h1>Flexbox</h1></header></div>
-        <div class="menu"><h1>Navigation . makes it so i need the class to be header but no do makes it the actual header.</h1></nav></div>
-        <div><main class="main"><h1>Main Space</h1></main></div>
-        <div>
-            <aside class="aside">
-                <a>This is the aside space</a>
-                <br><br><br>
-            </aside>
-        </div>
-        <div><section>Section</section></div>
-        <div><article>Arcticle</article></div>
-        <div><footer></footer></div>
-        
+    <body     style="font-size:1.33vw" background="..\Images\flexbox.jpg" style="width:75%;height:auto">
+        <font color="#28282B">
+        <header style="font-size:3vw; text-align: center"><h2>Flexbox</h2></header><br>
+        <nav class="menu" style="font-size:2vw"><div style="border: thick dotted rgb(20, 12, 74)"><h2>Summary of Flexbox:</div></nav>
+        <br><br><br><br><br><br><br>
+        <blockquote cite="https://coder-coder.com/wp-content/uploads/2018/09/CoderCoder-ResponsiveLayout_Tablet.png">
+          <!-- Date Accessed 20221009 -->
+        </blockquote>
+        <footer class="footer"><img src="..\Images\flebox.png" alt="..\Images\flebox.png" title="Flexbox Exemplar" style="width:100%; Height:auto;"></footer>
+        <navigation class="main">
+        <aside>Flexbox is a container where you put text or images which can change in size and positioned to your liking.</aside>
+        <br>
+        <main>A flexbox can have a border, background color, and unique size.</main>
+        <br>
+        <section>To change all of those things, go to the style tag and choose a box sizing and a font size and then put a dot and then the tag. ex. main.</section>
+        <br>
+        <article>You can also choose to make it so that you need to specifically put a class in a semantic tag so it chooses main by doing .main , if you don't do that, it will affect any semantic tag that is using the tag main.</article>
+        <br>
+        <footer>From there, you can choose the empty space and border size/color and background color, you can also make the flexbox be on a certain side by writing float:(direction).</footer>
+        <br>
+        <footer>To get an example of all of this, open the WYSIWYG and look at the style tag.</footer>
+    
+    </navigation>
+        </font>
     </body>
     <footer>
-        <Blockquote cite="https://www.brainyquote.com/quotes/elbert_hubbard_104409">
-         <!-- Date Accessed 20220919 -->
-        </Blockquote>
-        <p>
-            <strong>
-                "Do Not Take Life Too Seriously. You Will Never Get Out Of It Alive"
-            </strong>
-            <em>
-                <a href="https://www.brainyquote.com/quotes/elbert_hubbard_104409" target="_blank">
-                   -Elbert Hubbard
-                </a>
-            </em> 
-        </p>
-        <p>&copy This Website Is Copyright By Abdullah Alamssi, Powered By amazinf0 in GitHub</p>
-        </Blockquote>
+        
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <footer class="aside"><marquee direction="right" behavior="alternate";><p style="font-size:0.6vw;"> &copy This Website Is Copyright By Abdullah Alamssi, Powered By amazinf0 in GitHub</p></marquee></footer>
+    
     </footer>
 </html>
