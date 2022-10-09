@@ -55,35 +55,44 @@
             }
 
             //div {border: thick dotted rgb(28, 10, 158);}
-            header {
+            .header {
                border: 7px solid rgb(0, 0, 0);
                padding: 0px;
-               background-color: rgba(255, 0, 0, 0.5);
+               background-color: rgba(255, 255, 255, 0.650);
  
             }
             .menu {
-               width: 25%;
+               width: 50%;
                float: left;
                padding: 5px;
-               border: 4px solid blue;
+               border: 4px solid rgb(0, 0, 0);
+               background-color: rgba(255, 255, 255, 0.650)
             }
 
 
             .main {
-               width: 50%;
-               float: left;
-               padding: 5px;
-               border: 2px solid green;
+               width: 100%;
+               float: right;
+               padding: 0px;
+               border: 2px solid rgb(0, 0, 0);
+               background-color: rgba(255, 255, 255, 0.650);
             }
 
             .aside {
-               width: 25%;
+               width: 60%;
                float: left;
-               padding: 5px;
-               border: 1px solid yellow;
-               background-color: ;
+               padding: 0px;
+               border: 1px solid rgba(156, 156, 93, 0);
+               background-color: rgba(255, 255, 255, 0.650);
             }
-
+            
+            .article_1 {
+               width: 100%;
+               float: left;
+               padding: 0px;
+               border: 2px solid rgb(0, 0, 0);
+               background-color: rgba(255, 255, 255, 0.650);
+            }
             .footer {}
 
        </style>
@@ -92,11 +101,12 @@
         <!-- Cyber Security Note about JavaScript in Browsers-->
         <noscript>Running JavaScript is not necessary in this HTML page ... FYI: your feature to execute scripts is turned off</noscript>
     </head>
-    <body     style="font-size:1.33vw" background="..\Images\mhm.jpg" style="width:75%;height:auto">
+    <body     style="font-size:1.33vw" background="..\Images\meta.jpg" style="width:75%;height:auto" >
         <font color="#28282B">
-        <header style="font-size:3vw; text-align: center"><h2>Meta Data</h2></header><br>
-        <nav style="font-size:2vw"><div style="border: thick dotted rgb(20, 12, 74)"><h2>Summary of Meta Data</div></nav>
-        <br>
+        <header style="font-size:3vw; text-align: center" class="header"><h2>Meta Data</h2></header><br>
+        <nav style="font-size:2vw"><div style="border: thick dotted rgb(20, 12, 74)" class="aside"><h2>Summary of Meta Data:</div></nav>
+        <br><br><br><br><br><br><br>
+        <header class="menu">
         <nav> In order to make something <strong>bold</strong>, you need to use the strong tag.</nav>
         <br>
         <aside>To make put something into the <em>italic</em> font you need to use the em tag.</aside>
@@ -114,15 +124,16 @@
         <main>Including the & symbol and then a word can make symbols or do things such as &copy and the &Nbsp <sub>lowercase</sub> which are useful for conveying messages<br> such as a copyright warning or putting a space in the text.</main>
         <br>
         <footer>Include a target="_blank" after the href quotation so as to open another tab for a link rather than open the link in the same tab.</footer>
+        </header>
         </font>
     </body>
     <footer>
         
-        <br>
-        <marquee direction="right" behavior="alternate";><p style="font-size:0.6vw;"> &copy This Website Is Copyright By Abdullah Alamssi, Powered By amazinf0 in GitHub</p></marquee>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <article_1 class="article_1" &nbsp><marquee direction="right" behavior="alternate";><p style="font-size:0.6vw;" > &copy This Website Is Copyright By Abdullah Alamssi, Powered By amazinf0 in GitHub</p></marquee></article_1>
         </Blockquote>
         <blockquote cite="https://youtu.be/dQw4w9WgXcQ">
-            <!-- Date Accessed 20221005-->
+            <!-- Date Accessed 20221005 -->
         </blockquote>
     </footer>
 </html>
